@@ -1,0 +1,31 @@
+{
+    "name": "Employee",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addr",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "contactNumber",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190826080300",
+    "entityTableName": "employee",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": [
+        "eonservice",
+        "uiapplication"
+    ],
+    "microserviceName": "eonservice"
+}
